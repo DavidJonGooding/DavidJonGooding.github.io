@@ -10,6 +10,16 @@ redirect_from:
 
 Hi! I’m Dave, a PhD (DPhil) student at the University of Oxford, UK in the Department of Astrophysics. I specialise in optical instrumentation for astronomy, and also get to do some science with observational data. In my career so far I've built telescopes for imaging the earth from space, and now I'm building an instrument for imaging space from earth using the world's largest optical telescope, the [Extremely Large Telescope (ELT)](https://www.eso.org/public/teles-instr/elt/).
 
+## My work and research
+
+## Surrey Satellite Technology Ltd.
+
+## European Space Agency
+
+## Masters - UCL
+
+## Bachelors and industrial placement
+
 A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
