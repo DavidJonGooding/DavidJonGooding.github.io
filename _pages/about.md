@@ -12,13 +12,8 @@ Hi! I’m Dave, a PhD (DPhil) student at the University of Oxford, UK in the Dep
 
 ## My work and research
 
-## Surrey Satellite Technology Ltd.
+## Interests and hobbies
 
-## European Space Agency
-
-## Masters - UCL
-
-## Bachelors and industrial placement
 
 A data-driven personal website
 ======
