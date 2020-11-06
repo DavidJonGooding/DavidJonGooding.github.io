@@ -54,11 +54,10 @@ Other work experience
 
 Volunteer experience
 ======
- * English and Maths Teacher
-  * Instituto de Educacion Tecnologica y Cientifica (IETC), Naco, Honduras   * Apr 2014 - May 2014
+* English and Maths Teacher
+  * Instituto de Educacion Tecnologica y Cientifica (IETC), Naco, Honduras
+  * Apr 2014 - May 2014
 
 * Fundraiser
   * Hands On Disaster Response
   * Sep 2010 - Jun 2014
- 
- 
