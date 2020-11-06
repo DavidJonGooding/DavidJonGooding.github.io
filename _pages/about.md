@@ -12,11 +12,17 @@ Hi! I’m Dave, a PhD (DPhil) student at the University of Oxford, UK in the Dep
 
 ## My work and research
 
+**Coming soon!** This page is being created
+{: .notice}
+
 * HARMONI
   * pending...
+  <img src='/images/elt_small.png'>
 * IMBH
   * pending...
+  <img src='/images/R136.png'>
 
 ## Interests and hobbies
 
-to be written
+**Coming soon!** This page is being created
+{: .notice}
