@@ -3,15 +3,6 @@ permalink: /
 title: "About"
 excerpt: "About me"
 author_profile: true
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q8RLZPWLY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8Q8RLZPWLY');
-</script>
 redirect_from: 
   - /about/
   - /about.html
