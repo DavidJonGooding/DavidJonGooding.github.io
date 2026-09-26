@@ -1,0 +1,29 @@
+# Gallery, in display order. Put new images in /images/gallery/.
+# Aim for ~1600 px on the long edge, JPEG ~80% quality.
+# `credit` is required for anything you didn't take yourself.
+
+- src: /images/sstl_me.png
+  caption: Integrating an Earth-observation camera in the cleanroom
+  place: SSTL, Guildford
+  year: 2019
+
+- src: /images/elt_small.png
+  caption: The Extremely Large Telescope, home of HARMONI
+  place: Cerro Armazones, Chile
+  credit: Render — ESO
+
+- src: /images/esa_me.png
+  caption: Infrared detector test campaign
+  place: ESTEC, Noordwijk
+  year: 2016
+
+- src: /images/R136.png
+  caption: R136, where HARMONI might find an intermediate-mass black hole
+  place: Large Magellanic Cloud
+  credit: NASA, ESA, F. Paresce, R. O'Connell & the WFC3 Science Oversight Committee
+  year: 2009
+
+- src: /images/me_ALMA.png
+  caption: The ALMA array during construction
+  place: Chajnantor Plateau, Chile
+  year: 2011

@@ -1,0 +1,147 @@
+# Publications, grouped by theme. Newest first within each group.
+# `authors`: use "D. Gooding" exactly so it is highlighted on the page.
+# `featured: true` pins an item to the top of the Research page.
+
+- group: Space situational awareness & laser ranging
+  items:
+    - title: A tri-static ground-based laser ranging method for precise satellite attitude determination
+      authors: P. Bartram, J. Fletcher, E. Schafer, L. Pieters, D. Gooding, H. Virdee
+      venue: 9th European Conference on Space Debris (ESA/ESOC)
+      year: 2025
+      url: https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/368/SDC9-paper368.pdf
+      arxiv: https://arxiv.org/abs/2504.04140
+      featured: true
+    - title: "Twinkle: deployment, operations, and utilisation of the Shack Hartmann Image Motion Monitor (SHIMM) for atmospheric turbulence monitoring"
+      authors: D. Gooding, E. Schafer, J. Luis, H. Virdee, P. Bartram
+      venue: Proc. SPIE 13097
+      year: 2024
+      doi: 10.1117/12.3020381
+    - title: "Blink: advanced satellite pass prediction and mitigation software for satellite and space debris streak prevention"
+      authors: N. Patel, D. Gooding, E. Schafer, P. Bartram, H. Virdee, N. P. Ross
+      venue: Proc. SPIE 13098
+      year: 2024
+      doi: 10.1117/12.3020400
+    - title: "ALASCA: the ESA Laser Guide Star Adaptive Optics Optical Feeder Link demonstrator facility"
+      authors: R. Biasi, D. Bonaccini Calia, et al., incl. D. Gooding
+      venue: International Conference on Space Optics (ICSO 2022), Proc. SPIE 12777
+      year: 2023
+      doi: 10.1117/12.2690989
+    - title: A new global laser ranging network for satellite and debris tracking
+      authors: H. Virdee, P. Bartram, E. Schafer, D. Gooding, J. Luis
+      venue: 73rd International Astronautical Congress, IAC-22-A6.1.4
+      year: 2022
+      featured: true
+    - title: Novel low-cost lightweight laser retroreflectors for a sustainable new-space era
+      authors: D. Gooding, H. Virdee, E. Schafer, J. Luis, P. Bartram, K. Barton
+      venue: 73rd International Astronautical Congress, IAC-22-A6.IPB.2
+      year: 2022
+      url: https://iafastro.directory/iac/paper/id/73800/summary/
+    - title: "LOONY: laser ranging from the Moon for ultra-high accuracy tracking of satellites and debris in lunar orbit"
+      authors: D. Gooding, E. Piazze, E. Schafer, P. Bartram, H. Virdee, J. Luis
+      venue: 73rd International Astronautical Congress, IAC-22-A3.IP.3
+      year: 2022
+      url: https://iafastro.directory/iac/paper/id/73949/summary/
+
+- group: Astronomical instrumentation — HARMONI at the ELT
+  note: DPhil research at the University of Oxford on the first-light integral field spectrograph for ESO's Extremely Large Telescope.
+  items:
+    - title: "HARMONI at ELT: characterizing spatial variations in transmission efficiency of volume phase holographic diffraction gratings"
+      authors: D. Gooding, N. A. Thatte, E. Castillo Dominguez, E. Muslimov, M. Tecza, R. E. Meyer, F. Clarke, et al.
+      venue: Proc. SPIE 13100
+      year: 2024
+      doi: 10.1117/12.3020189
+      featured: true
+    - title: "HARMONI at ELT: chromatic dependence of wavefront error performance in volume phase holographic diffraction gratings"
+      authors: R. E. Meyer, D. Gooding, M. Tecza, et al.
+      venue: Proc. SPIE 13100
+      year: 2024
+      doi: 10.1117/12.3019252
+    - title: Magnetorheological finishing of volume phase holographic gratings for high fidelity spectrograph wavefront performance
+      authors: A. Clawson, E. Pearson, N. A. Thatte, M. Tecza, R. E. Meyer, D. Gooding, et al.
+      venue: Proc. SPIE 13100
+      year: 2024
+      doi: 10.1117/12.3018447
+    - title: "HARMONI at ELT: high precision cryogenic mechanisms for HARMONI spectrographs"
+      authors: E. Castillo Dominguez, I. J. Lewis, et al., D. Gooding, J. Chao-Ortiz, N. A. Thatte
+      venue: Proc. SPIE 13100
+      year: 2024
+      doi: 10.1117/12.3019188
+    - title: "HARMONI at ELT: project status and instrument overview"
+      authors: N. A. Thatte, D. Melotte, B. Neichel, et al. (HARMONI consortium, incl. D. Gooding)
+      venue: Proc. SPIE 13096
+      year: 2024
+      doi: 10.1117/12.3018520
+    - title: "HARMONI at ELT: overview of the capabilities and expected performance of the ELT's first light, adaptive optics assisted integral field spectrograph"
+      authors: N. A. Thatte, et al. (HARMONI consortium, incl. D. Gooding)
+      venue: Proc. SPIE 12184
+      year: 2022
+      doi: 10.1117/12.2628834
+    - title: "HARMONI: first light spectroscopy for the ELT: instrument final design and quantitative performance predictions"
+      authors: N. Thatte, I. Bryson, F. Clarke, et al. (HARMONI consortium, incl. D. Gooding)
+      venue: Proc. SPIE 11447
+      year: 2020
+      doi: 10.1117/12.2562144
+
+- group: Earth observation optics
+  note: Optical payload work at Surrey Satellite Technology Ltd.
+  items:
+    - title: A novel deployable telescope for Earth observation
+      authors: J. Shore, R. Blows, A. Viquerat, G. Richardson, D. Gooding, G. Aglietti
+      venue: AIAA SciTech 2021 Forum
+      year: 2021
+      doi: 10.2514/6.2021-1034
+    - title: A novel deployable telescope to facilitate a low-cost <1m GSD video rapid-revisit small satellite constellation
+      authors: D. Gooding, G. Richardson, A. Haslehurst, D. Smith, C. Saunders, G. Aglietti, R. Blows, J. Shore, K. Hampson, M. J. Booth
+      venue: International Conference on Space Optics (ICSO 2018), Proc. SPIE 11180
+      year: 2019
+      doi: 10.1117/12.2535928
+      featured: true
+    - title: High precision automated alignment procedure for two-mirror telescopes
+      authors: K. M. Hampson, D. Gooding, R. Cole, M. J. Booth
+      venue: Applied Optics 58(27)
+      year: 2019
+      doi: 10.1364/AO.58.007388
+    - title: A new generation of deployable optics for Earth observation using small satellites
+      authors: J. Shore, R. Blows, A. Viquerat, G. S. Aglietti, D. Gooding, G. Richardson
+      venue: 18th European Space Mechanisms and Tribology Symposium (ESMATS)
+      year: 2019
+      url: https://www.researchgate.net/publication/336120418
+
+- group: Detectors and early work
+  note: Infrared detector characterisation at ESA ESTEC, and mm-wave receivers at RAL Space.
+  items:
+    - title: First proton and gamma radiation of the MCT NIR European astronomy large format array detector
+      authors: P.-E. Crouzet, S. Tetaud, D. Gooding, B. Shortt, et al.
+      venue: Proc. SPIE 11454
+      year: 2020
+      doi: 10.1117/12.2561279
+    - title: "Large format array NIR detectors for future ESA astronomy missions: characterization and comparison"
+      authors: D. Gooding, P.-E. Crouzet, L. Duvet, T. Prod'homme, H. Smit, J. ter Haar, et al.
+      venue: Proc. SPIE 9915
+      year: 2016
+      doi: 10.1117/12.2231179
+    - title: Comparison of persistence in spot versus flat field illumination and single pixel response on a Euclid HAWAII-2RG at ESTEC
+      authors: P.-E. Crouzet, L. Duvet, P. Strada, R. Kohley, et al., incl. D. Gooding
+      venue: Proc. SPIE 9915
+      year: 2016
+      doi: 10.1117/12.2230836
+    - title: Upgraded local oscillator for ALMA Band 5 receiver
+      authors: M. Henry, D. Gooding, H. Wang, B. Ellison, P. G. Huggard
+      venue: 23rd International Symposium on Space Terahertz Technology
+      year: 2012
+      url: https://www.researchgate.net/publication/269928233
+
+- group: Outreach writing — Astrobites
+  items:
+    - title: How do you see a firefly next to a spotlight?
+      venue: Astrobites
+      year: 2021
+      url: https://astrobites.org/2021/06/21/adi_sdi_sphere/
+    - title: The Young Graduate Trainee scheme at the European Space Agency
+      venue: Astrobites
+      year: 2021
+      url: https://astrobites.org/2021/03/12/esa_ygt/
+    - title: Is this how we will discover missing black holes?
+      venue: Astrobites
+      year: 2021
+      url: https://astrobites.org/2021/02/04/how-we-will-discover-missing-black-holes/

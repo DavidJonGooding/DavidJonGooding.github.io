@@ -1,0 +1,40 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+lede: Things I've built, tested or pointed at the sky.
+---
+<div class="gallery">
+{% for g in site.data.gallery %}
+  <figure>
+    <button type="button" class="plate" aria-label="Enlarge: {{ g.caption | escape }}">
+      <img src="{{ g.src | relative_url }}" alt="{{ g.caption | escape }}" loading="lazy">
+    </button>
+    <figcaption>
+      {{ g.caption }}
+      <span class="plate-meta">{{ g.place }}{% if g.year %}, {{ g.year }}{% endif %}{% if g.credit %} · {{ g.credit }}{% endif %}</span>
+    </figcaption>
+  </figure>
+{% endfor %}
+</div>
+
+<dialog class="lightbox" aria-label="Enlarged image">
+  <img alt="">
+  <p class="plate-meta"></p>
+</dialog>
+
+<script>
+  (function () {
+    var box = document.querySelector('.lightbox');
+    var img = box.querySelector('img'), cap = box.querySelector('p');
+    document.querySelectorAll('.plate').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var src = b.querySelector('img');
+        img.src = src.src; img.alt = src.alt;
+        cap.textContent = src.alt;
+        box.showModal();
+      });
+    });
+    box.addEventListener('click', function () { box.close(); });
+  })();
+</script>

@@ -1,0 +1,36 @@
+---
+layout: default
+redirect_from:
+  - /about/
+  - /about.html
+---
+<section class="hero">
+  <img class="avatar" src="{{ '/images/me.png' | relative_url }}" alt="Dave Gooding" width="120" height="120">
+  <div>
+    <h1>Dave Gooding</h1>
+    <p class="role">Co-founder &amp; CTO, <a href="https://foundational.space">Foundational</a></p>
+    <p class="lede">I work on knowing exactly where things are in orbit.</p>
+    <p class="lede">Before this: instruments for the world's largest telescope, cameras for Earth-observation satellites, infrared detectors for ESA.</p>
+  </div>
+</section>
+
+<section class="now">
+  <h2>Now</h2>
+  <p>Building <a href="https://foundational.space">Foundational</a>. We use lasers to measure the distance to satellites and turn those measurements into orbits precise enough to act on.</p>
+</section>
+
+{% if site.posts.size > 0 %}
+<section>
+  <h2>Writing</h2>
+  {% include post-list.html posts=site.posts limit=3 %}
+  <p class="more"><a href="{{ '/writing/' | relative_url }}">All writing →</a></p>
+</section>
+{% endif %}
+
+<section>
+  <h2>Selected research</h2>
+  <ul class="pubs">
+  {% for g in site.data.publications %}{% for p in g.items %}{% if p.featured %}{% include pub.html p=p %}{% endif %}{% endfor %}{% endfor %}
+  </ul>
+  <p class="more"><a href="{{ '/research/' | relative_url }}">All publications →</a></p>
+</section>

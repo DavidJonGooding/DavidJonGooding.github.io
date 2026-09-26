@@ -1,0 +1,17 @@
+---
+layout: page
+title: Writing
+permalink: /writing/
+lede: Notes on orbits, instruments, and building things that work. Infrequent, by design.
+redirect_from:
+  - /year-archive/
+---
+{% if site.posts.size == 0 %}
+<p class="empty">Nothing yet.</p>
+{% else %}
+{% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for y in by_year %}
+<h2 class="year">{{ y.name }}</h2>
+{% include post-list.html posts=y.items %}
+{% endfor %}
+{% endif %}

@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ site.author.image | absolute_url | jsonify }},
+  "jobTitle": {{ site.author.job_title | jsonify }},
+  "worksFor": { "@type": "Organization", "name": {{ site.author.works_for.name | jsonify }}, "url": {{ site.author.works_for.url | jsonify }} },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of Oxford" },
+    { "@type": "CollegeOrUniversity", "name": "University College London" },
+    { "@type": "CollegeOrUniversity", "name": "Cardiff University" }
+  ],
+  "knowsAbout": ["Satellite laser ranging", "Space situational awareness", "Optical engineering", "Astronomical instrumentation", "Ground stations"],
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>
