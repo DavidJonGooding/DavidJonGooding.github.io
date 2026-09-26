@@ -1,0 +1,24 @@
+---
+layout: page
+title: Work
+permalink: /work/
+lede: Detectors, then satellites, then telescopes, then lasers.
+redirect_from:
+  - /portfolio/
+  - /cv/
+  - /resume/
+---
+<ol class="timeline">
+{% for w in site.data.work %}
+  <li>
+    <div class="when">{{ w.dates }}</div>
+    <div class="what">
+      <h2>{% if w.url %}<a href="{{ w.url }}">{{ w.org }}</a>{% else %}{{ w.org }}{% endif %}</h2>
+      <p class="role">{{ w.role }}</p>
+      {% if w.summary %}<p>{{ w.summary }}</p>{% endif %}
+      {% if w.link %}<p><a href="{{ w.link.url }}">{{ w.link.text }} →</a></p>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>
+

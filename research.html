@@ -1,0 +1,21 @@
+---
+layout: page
+title: Research
+permalink: /research/
+lede: Mostly about light — collecting it, measuring it, sending it back.
+redirect_from:
+  - /publications/
+---
+<p class="profiles">Also on
+  <a href="{{ site.author.links.scholar }}">Google Scholar</a>,
+  <a href="https://www.researchgate.net/profile/David-Gooding">ResearchGate</a> and
+  <a href="{{ site.author.links.orcid }}">ORCID</a>.</p>
+{% for g in site.data.publications %}
+<section class="pub-group">
+  <h2>{{ g.group }}</h2>
+  {% if g.note %}<p class="note">{{ g.note }}</p>{% endif %}
+  <ul class="pubs">
+  {% for p in g.items %}{% include pub.html p=p %}{% endfor %}
+  </ul>
+</section>
+{% endfor %}

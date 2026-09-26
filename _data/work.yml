@@ -1,0 +1,41 @@
+# Career timeline, newest first.
+- org: Foundational
+  url: https://foundational.space
+  role: Co-founder & CTO
+  dates: 2025 – present
+  summary: >-
+    Satellite laser ranging and space situational awareness. Ground stations, and the software that turns returned photons into orbits.
+
+- org: Lumi Space
+  role: Lead Engineer, then COO
+  dates: 2020 – 2025
+  summary: >-
+    Built the engineering behind a commercial satellite laser ranging service: ground-station optics, lightweight retroreflectors, turbulence monitoring, pass prediction. Contributor to ESA's ALASCA optical feeder-link demonstrator.
+
+- org: University of Oxford
+  role: DPhil, Astrophysics
+  dates: 2020 – 2024
+  summary: >-
+    Instrumentation for HARMONI, the first-light spectrograph on ESO's Extremely Large Telescope. An automated test bench for its 42 volume phase holographic gratings, and cryogenic alignment of its collimator mirrors.
+
+- org: Surrey Satellite Technology Ltd (SSTL)
+  role: Optical Payload Systems Engineer
+  dates: 2016 – 2020
+  summary: >-
+    Payload chain lead on a 100 kg Earth-observation satellite. Designed, built and tested 1 m-resolution cameras. Data analysis for EarthCARE's multispectral imager. R&D on deployable optics.
+  link: { text: Lab work video, url: "https://youtu.be/Owbwhhx-Nvg" }
+
+- org: European Space Agency, ESTEC
+  role: Young Graduate Trainee
+  dates: 2015 – 2016
+  summary: >-
+    Characterised large-format infrared detectors for future ESA astronomy missions.
+
+- org: RAL Space, STFC
+  role: Research placement
+  dates: 2011
+  summary: >-
+    Redesigned the Band 5 local oscillator for the ALMA radio telescope, and visited the Atacama site while it was under construction.
+
+- org: Education
+  role: MSc Space Science & Engineering (UCL, 2015) · BSc Physics with Astronomy (Cardiff, 2013)
